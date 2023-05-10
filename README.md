@@ -22,3 +22,5 @@ with this command, cypress will be installed, bringing all its basic libraries..
 $ npx cypress open
 ```
 -- this command will create the basic folder structure and present possible configurations such as which browser will be tested. Currently cypress covers 4 browsers. Google Chrome, Edge, Electron and Firefox
+
+For the best strategy, this code was build thinking in the maintenance of the code, because this, was separate testCase from implement and elements
