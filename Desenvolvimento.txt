@@ -1,0 +1,42 @@
+Desenvolvimento dos TestCase:
+
+Introdução:
+
+	1-Instalamos o Cypress
+	2-Configuramos o BaseURL para definir o Link padrão de utilização
+	3-Preparado os arquivos de testes na pasta E2E: Nesse arquivo é onde alocamos os TestCase
+	4-Preparação das pastas de Elementos e Desenvolvimento de testes
+	
+	
+Desenvolvimento:
+
+	1-TestCase 1:
+		-Alocamos um contexto para testar a validação de autenticação do Login e verificação de Campos UserName e Password, afirmando que os campos
+		existem e a autenticação seja feita com sucesso!
+		
+	2-TestCase 2:
+		-Criamos uma const para trazer as variaveis da pasta Elementos
+		-Feito um BeforeEach para aplicar a URL em todos os contexto sem precisar informar o comando dentro do It
+		-Validar alguns usuários afirmando que a autenticação vai gerar falhas ao logar, apenas no ultimo usuario que seria a função validaDados4Sucess
+		que autentica com sucesso!
+		
+    3-TestCase 3:
+		-Feito um BeforeEach para importar um custom commands chamado Login, para realizar o login sem informar os comandos dentro do it já que foi validado
+		no testCase1
+		-Valida toda a tela de detalhes da fatura do Cliente 110 - RendezvousHotel
+		
+		
+Conclusão:
+
+			-De modo geral validamos a tela de login, autenticação com sucesso e falhas
+			-Validações na tela inicial após o Login
+			-Validações em todos os dados da fatura
+			-Aplicado o custom commands para utilizar o Login dentro do BeforeEach
+			-Page object para organizar o projeto, nesse caso foi feito 3 pastas dentro do support que seria todo o desenvolvimento de testes
+			para que na pasta E2E os arquivos só importam o desenvolvimento da pasta support
+			-Mapeado alguns elementos mais importantes
+		
+		
+		
+	
+	
