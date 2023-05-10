@@ -13,8 +13,12 @@ $ npm init --yes
 ```
 If you have any doubts, you can consult a complete documentation on the website https://docs.cypress.io/guides/getting-started/installing-cypress. After that...
 
- < npm install cypress >
--- with this command, cypress will be installed, bringing all its basic libraries... After that...
+```
+$ npm install cypress
+```
+with this command, cypress will be installed, bringing all its basic libraries... After that...
 
-< npx cypress open >
+```
+$ npx cypress open
+```
 -- this command will create the basic folder structure and present possible configurations such as which browser will be tested. Currently cypress covers 4 browsers. Google Chrome, Edge, Electron and Firefox
