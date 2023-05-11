@@ -11,9 +11,9 @@ describe('TestCase 2', () => {
         cy.visit('/')
     })
 
-    context('Validate Fail Authentication with Invalid UserName and Password', () => {
+    context('Validar autenticação de Falha com UserName e Password Inválidos', () => {
 
-        it('Insert random data and certify authentication failure', () => {
+        it('Inserir dados aleatórios e certificar a falha na autenticação', () => {
 
             TestCase2.validateInput1Fail();
             TestCase2.validaDados2Fail();

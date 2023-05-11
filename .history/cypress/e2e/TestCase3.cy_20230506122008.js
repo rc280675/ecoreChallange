@@ -10,9 +10,9 @@ describe('TestCase 3', () => {
         cy.login();
     })
 
-    context('Validate invoice list data', () => {
+    context('Validar dados da lista de faturas', () => {
 
-        it('Invoice data validation', () => {
+        it('Validação dos dados da fatura', () => {
 
             TestCase3.faturaRendezvousHotel()
             TestCase3.detalhesFatura110();
